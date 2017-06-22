@@ -23,6 +23,6 @@ The Poster Firefox extension allows you to easily craft HTTP requests from withi
 Installation
 ------------
 
-Place all the files in a directory in your Web servers docroot and edit the config file "phprestsql.ini" with your database information and the URL path to the directory.
+Place all the files in a directory in your Web servers docroot and <b>edit the config file "phprestsql.ini" with your database information</b> and the URL path to the directory.
 
 To use tidy URLs, an example .htaccess file is included for the Apache Web server and the mod_rewrite module. Without mod_rewrite PHPRestSQL URLs will use the querystring and default document behavour to envoke the PHP script for the variety of URLs required by the RESTful interface.
